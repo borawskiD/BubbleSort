@@ -29,7 +29,7 @@ void sort(int tab [], int n){
      */
     for (int i = 0; i<n-1; i++){
         /* wyświetlanie numeru iteracji, dodaję jedynkę do zmiennej i ponieważ tablice iterujemy od
-         * zera, a my przyzwyczajeni jesteśmy do iterowania od jedynki.
+         * zera, a my przyzwyczajeni jesteśmy do liczenia od jedynki.
          */
         std::cout<<"\n"<<i+1 << " wykonanie (iteracja) petli - przed sortowaniem:\n";
         /* tutaj powołuję się na funkcję zdefiniowaną wyżej; nie chciałem duplikować już pętli
@@ -141,9 +141,4 @@ Po sortowaniu:
 ---------
 Posortowana tablica:
 1 2 3 4 4 9 10 10 11 12
-
-
- *
- *
- *
- */
+*/

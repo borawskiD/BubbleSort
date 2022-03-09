@@ -3,4 +3,4 @@ project(ASDLab1)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ASDLab1 main.cpp)
+add_executable(ASDLab1 main.cpp SelectionS.cpp)

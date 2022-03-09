@@ -78,6 +78,12 @@ build CMakeFiles/ASDLab1.dir/main.cpp.o: CXX_COMPILER__ASDLab1_Debug /Users/domi
   OBJECT_DIR = CMakeFiles/ASDLab1.dir
   OBJECT_FILE_DIR = CMakeFiles/ASDLab1.dir
 
+build CMakeFiles/ASDLab1.dir/SelectionS.cpp.o: CXX_COMPILER__ASDLab1_Debug /Users/dominikborawski/CLionProjects/ASDLab1/SelectionS.cpp || cmake_object_order_depends_target_ASDLab1
+  DEP_FILE = CMakeFiles/ASDLab1.dir/SelectionS.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/ASDLab1.dir
+  OBJECT_FILE_DIR = CMakeFiles/ASDLab1.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ASDLab1
@@ -86,7 +92,7 @@ build CMakeFiles/ASDLab1.dir/main.cpp.o: CXX_COMPILER__ASDLab1_Debug /Users/domi
 #############################################
 # Link the executable ASDLab1
 
-build ASDLab1: CXX_EXECUTABLE_LINKER__ASDLab1_Debug CMakeFiles/ASDLab1.dir/main.cpp.o
+build ASDLab1: CXX_EXECUTABLE_LINKER__ASDLab1_Debug CMakeFiles/ASDLab1.dir/main.cpp.o CMakeFiles/ASDLab1.dir/SelectionS.cpp.o
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/ASDLab1.dir
   POST_BUILD = :
